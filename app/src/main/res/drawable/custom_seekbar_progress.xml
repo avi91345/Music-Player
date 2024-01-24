@@ -1,0 +1,30 @@
+<!-- res/drawable/custom_seekbar_progress.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Background Track -->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dp" />
+            <gradient
+                android:startColor="#C0C0C0"
+                android:centerColor="#000000"
+                android:endColor="#000000"
+                android:angle="0"/>
+        </shape>
+    </item>
+
+    <!-- Progress Track -->
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="5dp" />
+                <gradient
+                    android:startColor="#FF4081"
+                    android:centerColor="#FF4081"
+                    android:endColor="#E040FB"
+                    android:angle="0"/>
+            </shape>
+        </clip>
+    </item>
+
+</layer-list>
